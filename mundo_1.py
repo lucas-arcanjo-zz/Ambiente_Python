@@ -17,8 +17,8 @@ mes = input('Mês = ')
 ano = input ('Ano = ')
 print ('Você nasceu no dia', (dia), 'de', (mes), 'de', (ano), '. Correto?')
 
-#Exercício 3
-n1 = input ('Digite um número: ')
-n2 = input ('Digite outro número: ')
-s = n1+n2
-print ('A soma é', s)
+#Exercício 03
+n1 = int(input('Digite um número: '))
+n2 = int(input('Digite outro número: '))
+soma = int (n1+n2)
+print ('O valor {} e {} soma {}'.format(n1, n2, soma))
