@@ -1,5 +1,7 @@
-#   AULA 7
+#   AULA 8
 
-nome =(input('Qual é o seu nome? '))
-print ('Olá {}, prazer em te conhecer'.format(nome))
+import math
 
+num = int(input('Digite um número: '))
+raiz = math.sqrt(num)
+print ('A raiz quadrado de {} é {}.'.format(num, raiz))

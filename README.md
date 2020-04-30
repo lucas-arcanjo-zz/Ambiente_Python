@@ -24,3 +24,15 @@ Exemplos
     3 * (5 + 4) ** 2 == 243
 
    o comando "n\" quebra a linha, enquanto o "end=''" continua na mesma linha
+
+Aula 8
+
+Utilizando Módulos
+
+para importar algo para o seu programa é necessario utilizar o comando:
+
+IMPORT "NOMEDAIMPORTAÇÃO" => TODOSOSRESULTADO
+
+esse comando é utilizado para tudo o que tem na importação "NOMEDAIMPORTAÇÃO", para selecionar apenas um campo da importação, utilize:
+
+FROM "NOMEDAIMPORTAÇÃO" IMPORT => RESULTADOESPECIFICO
