@@ -55,11 +55,35 @@ print ('A tabuada de {} até 10 é:\n{} x 0 = {}\n{} x 1 = {}\n{} x 2 = {}\n{} x
     #   Exercicio 10
 #  Crie um programa que leia quanto dinheiro uma pessoa tem na carteira e mostre quantos dólares ela pode comprar.  (Considerando o valor do dólar como US 1,00 = 3,27)
 
+reais = int(input('Quantos reais possui?: '))
+dolar = reais * 3.27
+
+print ('O valor de {}, convertido em dolar, é {}'.format(reais, dolar))
+
     # Exercicio 11
-# Faça um programa que leia a largura e a altura de uma parede em metros, calcule a sua área e a quantidade de tinta necessária para pintá-la, sabendo que casa litro de tinta pinta uma área de 2m2.
+# Faça um programa que leia a largura e a altura de uma parede em metros, calcule a sua área e a quantidade de tinta necessária para pintá-la, sabendo que cada litro de tinta pinta uma área de 2m2.
+
+largura = float(input('Digite a largura da parede em metros: '))
+altura = float(input('Digite a altura da parede em metros: '))
+soma = largura * altura
+area = 2 * soma 
+
+print ('A área possui {} metros quadrado, é necessário {} litros de tinta.'.format(soma, area))
 
     # Exercicio 12
 # Faça um algoritmo que leia o preço de um produto e mostre seu novo preço, com desconto de 5% de desconto.
 
+produto = float(input('Qual é o preço do produto?: '))
+desconto = produto * 0.05
+produto_desconto = produto - desconto
+
+print ('Com desconto, o valor fica {}'.format(produto_desconto))
+
     # Exercicio 13
 # Faça um algoritmo que leia o salário de um funcionário e mostre seu novo salário, com 15% de aumento.
+
+salario = float(input('Qual é o salário do(a) funcionário(a)?: '))
+aumento = salario * 0.15
+salario_novo = salario + aumento
+
+print ('O aumento do(a) funcionário(a) subiu para {}'.format(salario_novo))
