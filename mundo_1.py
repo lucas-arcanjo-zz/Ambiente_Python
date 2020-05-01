@@ -1,7 +1,12 @@
-#   AULA 8
+#   AULA 9
 
-import math
+#   Treinando Fatiamento de Strings
+frase = ('Curso em Vídeo Python')
 
-num = int(input('Digite um número: '))
-raiz = math.sqrt(num)
-print ('A raiz quadrado de {} é {}.'.format(num, raiz))
+#print (frase[7::4])
+
+#   Treinando Análise de Strings
+
+frase1 = ('   Aprenda Python   ')
+
+print('-'.join(frase))
