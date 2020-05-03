@@ -128,29 +128,27 @@ print(frase.title())
 ´´
 frase1 = ('   Aprenda Python   ')
 
-print(frase1.strip())
+`frase1.strip()`
 ´´
    O comando "strip()" apaga os espaços vazios antes de iniciar os caracteres, e os últimos caracteres depois de terminar a frase, muito comum na área de tecnologia, o resultado será "Aprenda Pyhton", e não "   Aprenda Pyhton   ".
-´´
-print(frase1.rstrip())
-´´
+
+`frase1.rstrip()`
+
    "rstrip()" tem a mesma funcionalidade que o "strip()", o que muda é que ele apagará somente o espaços vazios do final, o resultado será "   Aprenda Python".
-´´
-print(frase1.lstrip())
-´´
+
+`print(frase1.lstrip()`
+
    Assim como os anteriores, o comando "lstrip" irá exluir somente os primeiros espaços vazios da string, o resultado será "Aprenda Python   "
-´´
+
 
       Disisão
 
-´´
-print(frase.split())
-´´
-O comando "split()" faz uma divisão em toda sua string depois do espaço, considerando a string "Curso em Vídeo Pyhton" o "split()" irá dividir a string em 4 listas, o resultado seria "Curso" como 1 lista, "em" como 2 lista, "Vídeo" como 3 lista, e "Python" como 4 lista.
+`frase.split()`
+
+O comando `"split()"` faz uma divisão em toda sua string depois do espaço, considerando a string "Curso em Vídeo Pyhton" o `"split()"` irá dividir a string em 4 listas, o resultado seria "Curso" como 1 lista, "em" como 2 lista, "Vídeo" como 3 lista, e "Python" como 4 lista.
 
       Junção
 
-´´
-print('-'.join(frase))
-´´
-   O Comando "join" faz a junção da string, com algo, como espaço, traços, etc, o resultado seria "C-u-r-s-o- -e-m- -V-í-d-e-o- -P-y-t-h-o-n".
+`'-'.join(frase)`
+ 
+   O Comando `"join"` faz a junção da string, com algo, como espaço, traços, etc, o resultado seria "C-u-r-s-o- -e-m- -V-í-d-e-o- -P-y-t-h-o-n".
