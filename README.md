@@ -110,32 +110,32 @@ frase = ('Curso em Vídeo Python')
 
 `frase.upper()`
 
-   O comando "upper()" deixa todos os caracteres em maiúsculos, o resultado seria "CURSO EM VÍDEO PYTHON".
+   O comando `"upper()"` deixa todos os caracteres em maiúsculos, o resultado seria "CURSO EM VÍDEO PYTHON".
 
 `frase.lower()`
 
-   O comando "lower()" tem a mesma função que o "upper", só que ele deixa todos os caracteres em minúsculo, o resultado seria "curso em vídeo python".
+   O comando `"lower()"` tem a mesma função que o "upper", só que ele deixa todos os caracteres em minúsculo, o resultado seria "curso em vídeo python".
 
 `frase.capitalize()`
-   O comando "capitalize()" irá deixa todas os caracteres em minúsculo, somente o primeiro caractere ficará maiúsculo, o resulto será "Curso em vídeo python".
+   O comando `"capitalize()"` irá deixa todas os caracteres em minúsculo, somente o primeiro caractere ficará maiúsculo, o resulto será "Curso em vídeo python".
 
 `frase.title()`
 
-   O comando "title()" irá deixar todos os caracteres depois do espaço, eles faz uma quebra, e a primeira palavra, depois do espaço, será maiúscula, as demais ficarão minúscula, o resultado será "Curso Em Vídeo Python".
+   O comando `"title()"` irá deixar todos os caracteres depois do espaço, eles faz uma quebra, e a primeira palavra, depois do espaço, será maiúscula, as demais ficarão minúscula, o resultado será "Curso Em Vídeo Python".
 
 `frase1 = ('   Aprenda Python   ')`
 
 `frase1.strip()`
 
-   O comando "strip()" apaga os espaços vazios antes de iniciar os caracteres, e os últimos caracteres depois de terminar a frase, muito comum na área de tecnologia, o resultado será "Aprenda Pyhton", e não "   Aprenda Pyhton   ".
+   O comando `"strip()"` apaga os espaços vazios antes de iniciar os caracteres, e os últimos caracteres depois de terminar a frase, muito comum na área de tecnologia, o resultado será `"Aprenda Pyhton"`, e não "   Aprenda Pyhton   ".
 
 `frase1.rstrip()`
 
-   "rstrip()" tem a mesma funcionalidade que o "strip()", o que muda é que ele apagará somente o espaços vazios do final, o resultado será "   Aprenda Python".
+   "rstrip()" tem a mesma funcionalidade que o `"strip()"`, o que muda é que ele apagará somente o espaços vazios do final, o resultado será "   Aprenda Python".
 
 `frase1.lstrip()`
 
-   Assim como os anteriores, o comando "lstrip" irá exluir somente os primeiros espaços vazios da string, o resultado será "Aprenda Python   "
+   Assim como os anteriores, o comando `"lstrip"` irá exluir somente os primeiros espaços vazios da string, o resultado será "Aprenda Python   "
 
 
       Disisão
