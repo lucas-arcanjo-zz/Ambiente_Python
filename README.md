@@ -93,33 +93,33 @@ frase = ('Curso em Vídeo Python')
 
    O sistema vai encontrar a letra "o", do caractere 0, até o caractere 12, o resultado será apenas 1 "o", lembrando que o caractere 13 é exluído. 
 
-`print(frase.find('íde'))`
+`frase.find('íde')`
 
    Já o comando "find", ele procura as letras selecionadas no comando, e irá infomar, em qual caractere ela começa da string, sendo o resultado acima, de 10.
       Caso procure uma frase, ou letra que não esteja na string, o sistema irá retornar "-1", informando que não existe.
 
-`print(('Curso') in frase)`
+`('Curso') in frase`
 
    Já o comando "in" é usado para perguntar ao sistema se existe a frase ou não em uma string, vendo o exemplo, o resultado seria "True".
 
       Transformação
 
-`print(frase.replace('Python','Android'))`
+`frase.replace('Python','Android')`
 
    O comando "replace" substitui, no exemplo, ele não vai salvar a alteração, ele somente irá mostra a substituição, mas não será salvo, no resultado, apareceria "Curso em Vídeo Android".
 
-`print(frase.upper())`
+`frase.upper()`
 
    O comando "upper()" deixa todos os caracteres em maiúsculos, o resultado seria "CURSO EM VÍDEO PYTHON".
 
-`print(frase.lower())`
+`frase.lower()`
 
    O comando "lower()" tem a mesma função que o "upper", só que ele deixa todos os caracteres em minúsculo, o resultado seria "curso em vídeo python".
 
-`print(frase.capitalize())`
+`frase.capitalize()`
    O comando "capitalize()" irá deixa todas os caracteres em minúsculo, somente o primeiro caractere ficará maiúsculo, o resulto será "Curso em vídeo python".
 
-`print(frase.title())`
+`frase.title()`
 
    O comando "title()" irá deixar todos os caracteres depois do espaço, eles faz uma quebra, e a primeira palavra, depois do espaço, será maiúscula, as demais ficarão minúscula, o resultado será "Curso Em Vídeo Python".
 
@@ -133,7 +133,7 @@ frase = ('Curso em Vídeo Python')
 
    "rstrip()" tem a mesma funcionalidade que o "strip()", o que muda é que ele apagará somente o espaços vazios do final, o resultado será "   Aprenda Python".
 
-`print(frase1.lstrip()`
+`frase1.lstrip()`
 
    Assim como os anteriores, o comando "lstrip" irá exluir somente os primeiros espaços vazios da string, o resultado será "Aprenda Python   "
 
