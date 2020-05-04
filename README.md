@@ -54,29 +54,26 @@ print (frase[3])
    O resultado seria a letra 3, que seria o "s", lembrando que sempre a começa com 0.
 
    Com isso em mente, existem outras funcionalidades para ter o resultado mais preciso.
-```
+
 frase = ('Curso em Vídeo Python')
 
-frase[9:13]
-```
+`frase[9:13]`
+
    Já essa maneira, ele vai pegar da palavra 9 e vai até a 12, ele exclui o 13, ou seja, se fosse realizado o comando, o resultado seria "Víde".
-```
-frase[9:13:2]
-```
+
+`frase[9:13:2]`
 
    O último número (":2") é usado para pular casas, o resultado seria "Vd"
 
-```
-frase[:14]
-```
+`frase[:14]`
+
 
    Já esse comando, por não ter o primeiro número antes do ":", ele vai buscar do primeiro caractere, até o 13, já que o 14 ele exclui, o resultado seria "Curso em Vídeo"
 
-```
-frase[15:]
-```
+`frase[15:]`
+
    Da mesma forma que o anterior, só que esse vai começar do caractere 14, e vai até o último caractere, o resultado seria "Python"
-```
+
 `frase[7::4]`
 
    Seguindo a mesma linha de raciocíonio, a string começaria do 7, e vai até o final, já que não houve específicação depois do "7:", e por último, pularia de 4 em 4 casas, o resultado seria "mdPo"
