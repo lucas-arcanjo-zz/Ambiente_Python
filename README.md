@@ -82,25 +82,25 @@ frase = ('Curso em Vídeo Python')
 
 `len(frase)`
 
-   O comando "len" é utilizado para saber a quantidade caracteres dentro de uma string.
+   O comando `"len"` é utilizado para saber a quantidade caracteres dentro de uma string.
 
 `count.frase('o')`
 
-   O comando "count" descobre a quantidade específica de um caractere, por exemplo a letra "o", ele vai procurar quantos "o" tem detro da string, sendo o resultado de 3.
-      Pode ser utilizado o comando "count", junto com o fatiamento.
+   O comando `"count"` descobre a quantidade específica de um caractere, por exemplo a letra `"o"`, ele vai procurar quantos "o" tem detro da string, sendo o resultado de 3.
+      Pode ser utilizado o comando `"count"`, junto com o fatiamento.
 
 `count.frase('0',0,13)`
 
-   O sistema vai encontrar a letra "o", do caractere 0, até o caractere 12, o resultado será apenas 1 "o", lembrando que o caractere 13 é exluído. 
+   O sistema vai encontrar a letra `"o"`, do caractere 0, até o caractere 12, o resultado será apenas 1 `"o"`, lembrando que o caractere 13 é exluído. 
 
 `frase.find('íde')`
 
-   Já o comando "find", ele procura as letras selecionadas no comando, e irá infomar, em qual caractere ela começa da string, sendo o resultado acima, de 10.
-      Caso procure uma frase, ou letra que não esteja na string, o sistema irá retornar "-1", informando que não existe.
+   Já o comando `"find"`, ele procura as letras selecionadas no comando, e irá infomar, em qual caractere ela começa da string, sendo o resultado acima, de 10.
+      Caso procure uma frase, ou letra que não esteja na string, o sistema irá retornar `"-1"`, informando que não existe.
 
 `('Curso') in frase`
 
-   Já o comando "in" é usado para perguntar ao sistema se existe a frase ou não em uma string, vendo o exemplo, o resultado seria "True".
+   Já o comando `"in"` é usado para perguntar ao sistema se existe a frase ou não em uma string, vendo o exemplo, o resultado seria `"True"`.
 
       Transformação
 
