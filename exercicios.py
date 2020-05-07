@@ -86,4 +86,4 @@ salario = float(input('Qual é o salário do(a) funcionário(a)?: '))
 aumento = salario * 0.15
 salario_novo = salario + aumento
 
-print ('O aumento do(a) funcionário(a) subiu para {}'.format(salario_novo))
+#print ('O aumento do(a) funcionário(a) subiu para {}'.format(salario_novo))
