@@ -46,11 +46,11 @@ Manipulando texto
       Fatiamento
 
    Exemplo
-
+´´
 frase = ('Curso em Vídeo Python)
                
-`print (frase[3])`
-
+print (frase[3])
+´´
    O resultado seria a letra 3, que seria o `"s"`, lembrando que sempre a começa com 0.
 
    Com isso em mente, existem outras funcionalidades para ter o resultado mais preciso.
