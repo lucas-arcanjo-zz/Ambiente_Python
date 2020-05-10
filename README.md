@@ -63,7 +63,7 @@ frase = ('Curso em Vídeo Python')
 
 `frase[9:13:2]`
 
-   O último número (":2") é usado para pular casas, o resultado seria "Vd"
+   O último número ´´(":2")´´ é usado para pular casas, o resultado seria "Vd"
 
 `frase[:14]`
 
