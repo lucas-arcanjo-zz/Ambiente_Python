@@ -86,4 +86,53 @@ salario = float(input('Qual é o salário do(a) funcionário(a)?: '))
 aumento = salario * 0.15
 salario_novo = salario + aumento
 
-#print ('O aumento do(a) funcionário(a) subiu para {}'.format(salario_novo))
+print ('O aumento do(a) funcionário(a) subiu para {}'.format(salario_novo))
+
+    # Exercicio 28 
+    # Escreva um programa que faça o computador "pensar" em um número inteiro entre 0 e 5 e peça para o usuário tentar descobrir qual foi o número escolhido pelo computador.
+    # 		O programa deverá escrever na tela se o usuário venceu ou perdeu.
+
+pensar = int(input('Descubra o número que estou pensando de 1 a 5: '))
+if pensar == 3:
+    print ('Parabéns, você descobriu o número!!')
+else:
+    print ('Você não acertou o número pensado!!')
+
+    # Exericio 29 
+    # Escreva um programa que leia a velocidade de um carro.
+    # 	Se ele ultrapassar 80km/h, mostre uma mensagem dizendo que ele foi multado.	A multa vai custar R$7,00 por cada km acima do limite.
+
+multa = int(input('Qual foi a velocidade do carro?: '))
+calculo_multa = multa - 80 
+valor_multa = calculo_multa * 7
+
+if multa > 80:
+    print ('Foi ultrapassado o limite de velocidade, você foi multado, o valor da multa é R$ {},00'.format(valor_multa))
+else:
+    print ('Velocidade conforme as normas')
+
+
+    # Exercicio 30
+    # Crie um programa que leia um número inteiro e mostre na tela se ele é PAR ou ÍMPAR.
+    
+####################impar_ou_par = int(input('Digíte um número: ')
+####################if impar_ou_par == x1:
+# ##################print ('O número digitado é Impar!')
+#####################else:
+    #################print ('O númeor digitado é Par!')
+
+    # Exercicio 31
+    #  Desenvolva um programa que pergunte a distância de uma viagem de Km. Calcule o preço da passagem, cobrando R$0,50 por Km para viagens de 200Km e R$0,45 para viagens mais longas.
+    
+    # Exercicio 32
+    #  Faça um programa que leia um ano qualquer e mostre-se ele é BISSEXTO.
+
+    # Exercicio 33
+    #  Faça um programa que leia três números e mostre qual é o maior e qual é o menor.
+
+    # Exercicio 34
+    #  Escreva um programa que pergunte o salário de um funcionário e calcule o valor do seu aumento.	Para salários superiores a R$1.250,00, calcule um aumento de 10%.
+    # 	Para os inferiores ou iguais, o aumento é de 15%.
+
+    # Exercicio 35
+    #  Desenvolva um programa que leia o comprimento de três retas e diga ao usuário se elas podem ou não formar um triângulo.
