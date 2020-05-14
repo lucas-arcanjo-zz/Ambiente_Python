@@ -173,4 +173,10 @@ o `else`.
 Aula 13
    
       Laços de repetição / Estrutura de repetição FOR
-   O comando `for` é o laço de repetição, caso precise de um limite esse laço, é necessário colocar um intervalo, que em python, o comando é `range()` 
+   O comando `for` é o laço de repetição, caso precise de um limite esse laço, é necessário colocar um intervalo, que em python, o comando é `range():`
+
+Aula 14
+
+      Estrutura de repetição while
+   O comando `while` é utilizado quando não se tem certeza até onde chegar com o `for`, por isso é
+utilizado até chegar no destino.

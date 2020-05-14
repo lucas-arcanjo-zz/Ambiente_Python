@@ -241,3 +241,6 @@ print ('BUM, BUM, POOOW!')
 for c in range (2, 51, 2):
     print(c, end=' ')   
 print ('ACABOU')
+
+#Desafio 057
+#Faça um programa que leia o sexo de uma pessoa, mas só aceito os valores 'M' ou 'F'. Caso esteja errado, peça a digitação novamente até ter um valor correto.' 
