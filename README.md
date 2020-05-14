@@ -173,5 +173,4 @@ o `else`.
 Aula 13
    
       Laços de repetição / Estrutura de repetição FOR
-
-   
+   O comando `for` é o laço de repetição, caso precise de um limite esse laço, é necessário colocar um intervalo, que em python, o comando é `range()` 
