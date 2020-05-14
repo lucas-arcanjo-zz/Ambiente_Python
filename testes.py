@@ -11,8 +11,8 @@ print ('{} anos'.format(anos))
 parcelas = casa / anos
 valor_mensal = parcelas / 12
 emprestismo = salario * 0.3 
-
+print ('Para pagar a casa de {} mil reais em {} anos, as parcelas firam no valor de {}, o seu salário chega a {},00'.format(casa, anos, parcelas, salario))
 if emprestismo > valor_mensal:
     print('Você possui empréstimo bancário !')
 else:
-    print('Você não possui o salário suficiente para {} ano(s)'.format(anos))
+    print('Imprestimo Negado')
