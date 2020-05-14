@@ -1,7 +1,18 @@
-    # Crie um programa que leia um número inteiro e mostre na tela se ele é PAR ou ÍMPAR.
+#Desafio 036
+#Escreva um programa para aprovar o empréstimo bancário para a compra de uma casa. O programa vai perguntar o valor da casa, o salário do comprador e em quantos anos ele vai pagar
+#Calcule o valor da prestação mensal, sabendo que ela não pode exceder 30% do salário ou então o empréstimo será negado.
 
-impar_ou_par = int(input('Digíte um número: '))
-if impar_ou_par == x1:
-    print ('O número digitado é Impar!')
+casa = int(input('Quanto é o valor da casa? '))
+print ('R$ {} mil reias'.format(casa))
+salario = int(input('Qual é o seu salário? '))
+print ('R$ {},00'.format(salario))
+anos = int (input('Quantos anos pretende pagar a casa? '))
+print ('{} anos'.format(anos))
+parcelas = casa / anos
+valor_mensal = parcelas / 12
+emprestismo = salario * 0.3 
+
+if emprestismo > valor_mensal:
+    print('Você possui empréstimo bancário !')
 else:
-    print ('O númeor digitado é Par!')
+    print('Você não possui o salário suficiente para {} ano(s)'.format(anos))
