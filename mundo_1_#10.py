@@ -1,5 +1,5 @@
-#   Aula 10
-
+#Aula 10
+    #Condições
 nota = int(input('Qual foi a nota do aluno?'))
 if nota >=6:
     print ('O aluno foi aprovado')

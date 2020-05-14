@@ -1,5 +1,5 @@
-#  Aula 12
-    # Condição Aninhada
+#Aula 12
+    #Condição Aninhada
 
 nome = str(input('Olá, qual é o seu nome? '))
 print ('Seja Bem-Vindo {} !'.format(nome))

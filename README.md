@@ -149,3 +149,29 @@ O comando `"split()"` faz uma divisão em toda sua string depois do espaço, con
 `'-'.join(frase)`
  
    O Comando `"join"` faz a junção da string, com algo, como espaço, traços, etc, o resultado seria "C-u-r-s-o- -e-m- -V-í-d-e-o- -P-y-t-h-o-n".
+
+Aula 11
+
+      Condições
+   Uma estrutura condicional simples é usada apenas o `if` que significa verdadeiro.
+   
+   Já a estrutura condicional composta é usada o `if` que significa verdadeiro e o `else` que significa
+falso.
+
+Aula 12
+
+      Condições Aninhadas   
+   Condições Aninhadas é a junção de várias estruturas condicionais, "vários caminhos" para chegar ao
+mesmo destino. Porém é acrescentados mais um comando, que é o `elif`, a junção de `if` e `else`.
+
+__pontos importante__
+   O comando `if` é obrigatório, pode ser utilizado várias vezes, ou apenas uma.
+   O comnado `else` só pode ser utilizado uma vez, não é obrigatório sua utilização.
+   O comando `elif` pode ser usado várias vezes, depois do primeiro `if`, e pode servir para substituir
+o `else`.
+
+Aula 13
+   
+      Laços de repetição / Estrutura de repetição FOR
+
+   
