@@ -6,8 +6,8 @@ Aula 7
 Operadores Aritméticos
 
    5 + 2 == 7 <-- adição              5 ** 2 == 25 <-- potencialização
-   5 - 2 == 3 <-- subtração             5 // 2 == 4 <-- divisão inteira
-   5 * 2 == 10 <-- multiplicação            5 % 2 == 1 <-- resto
+   5 - 2 == 3 <-- subtração             5 // 2 == 2 <-- divisão inteira
+   5 * 2 == 10 <-- multiplicação            5 % 2 == 1 <-- resto da divisão
    5 / 2 == 2,5 <-- divisão
 
 Ordem de precêdencia 
