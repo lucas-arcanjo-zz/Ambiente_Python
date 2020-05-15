@@ -243,18 +243,61 @@ for c in range (2, 51, 2):
 print ('ACABOU')
 
 #Desafio 057
-#Faça um programa que leia o sexo de uma pessoa, mas só aceito os valores 'M' ou 'F'. Caso esteja errado, peça a digitação novamente até ter um valor correto.' 
+#Faça um programa que leia o sexo de uma pessoa, mas só aceite os valores 'M' ou 'F'. Caso esteja errado, peça a digitação novamente até ter um valor correto.'
+
+sair = 'SAIR'
+m = f = 0
+while sair != 'S':
+    perg = str(input('Digíte o sexo: ')).upper()
+    if perg == 'M':
+        m += 1 
+        sair = str(input('Deseja sair? [S/N]: ')).upper()    
+    elif perg == 'F':
+        f += 1
+        sair = str(input('Deseja sair? [S/N]: ')).upper()    
+    else:
+        print('Digíte novamente!')
+print ('Houve um total de {} homens, e {} mulheres'.format(m,f)) 
 
 #Desafio 058
 #Melhore o jogo Desafio 028 onde o computador vai "pensar" em um número entre 0 e 10. Só que agora o jogador vai tentar adivinhar até acertar, mostrando no final quantos palpites foram necessários para vencer.
 
+pensar = 0
+palpites = 0
+while pensar != 9:
+    print ('Descubra o número que estou pensando, de 1 até 10 !')
+    pensar = int(input('Qual número estou pensando?: '))
+    if pensar == 9:
+        palpites += 1
+        print('Você acertou !!!')
+    else:
+        palpites += 1
+        print ('Errou, tente de novo!')
+print ('Você precisou de {} palpite(s) para adivinhar !!!'.format(palpites))
+
 """Desafio 059
 Crie um programa que leia dois valores e mostre um menu na tela:
+    [1] somar 
+    [2] multilpicar
+    [3] maior
+    [4] novos números
+    [5] sair do programa
+Seu programa deverá realizar a operação solicitada em cada caso."""
 
-[1] somar
-[2] multilpicar
-[3] maior
-[4] novos números
-[5] sair do programa
-
-Seu programa deverá realizar a operação solicitada em casa caso."""
+n1 = 1
+n2 = 2
+menu = 'sair'
+while menu != 5:
+    n1 = int(input('Digíte um número: '))
+    n2 = int(input('Digíte outro número: '))
+    menu = int(input("""[1] somar \n[2] multilpicar\n[3] maior\n[4] novos números\n[5] sair do programa\nO que desejar fazer com esses dois números?: """))
+    if menu == 1:
+        print (n1+n2)
+    elif menu == 2:
+        print (n1*n2)
+    elif menu == 3:
+        if n1 > n2:
+            print(n1)
+        else:
+            print(n2)       
+print ('FIM')
