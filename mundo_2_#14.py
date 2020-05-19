@@ -9,4 +9,4 @@ load = 'S'
 while load == 'S':
     n1 =  str(input('Digíte um número: '))
     load =  str(input('Desenha Continuar? [S/N]: ')).upper()
-print ('FIM'
+print ('FIM'))
