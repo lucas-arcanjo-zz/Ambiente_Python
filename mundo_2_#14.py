@@ -4,7 +4,7 @@ n = 9
 while n != 7:
     n = int(input('Digite o número que estou pensando: '))
 print ('Parabéns, você descobriu !')
-###=======================###
+###========================###
 load = 'S'
 while load == 'S':
     n1 =  str(input('Digíte um número: '))
