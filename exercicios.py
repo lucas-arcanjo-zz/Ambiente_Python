@@ -226,7 +226,6 @@ else:
 #Desafio 46
 #Faça um programa que mostre na tela uma contagem regressiva para o estouro de fogos de artifício, indo de 10 até 0, com uma pausa de 1 segundo entre eles.
 from time import sleep
-from emoji import 
 nome = str(input('Qual é o seu nome? '))
 print ('{}, se prepare com a contagem dos fogos!!!'.format(nome))
 
@@ -241,6 +240,14 @@ print ('BUM, BUM, POOOW!')
 for c in range (2, 51, 2):
     print(c, end=' ')   
 print ('ACABOU')
+
+#Desafio 048
+
+#Desafio 049 
+#Refaça o Desafio 09, mostrando a tabuada de um número que o usuário escolher, só que agora utilizando um laço for.
+tabuada=int(input("Digíte um número: "))
+for c in range(1,11):
+  print("{} x {} = {}".format(tabuada,c,c*tabuada))
 
 #Desafio 057
 #Faça um programa que leia o sexo de uma pessoa, mas só aceite os valores 'M' ou 'F'. Caso esteja errado, peça a digitação novamente até ter um valor correto.'
