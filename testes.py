@@ -1,4 +1,5 @@
-n1 = int(input('informe um valor: '))
 
-for c in range (1,5):
-    print(c+n1)
+n1 = int(input('Escreva um número: '))
+n2 = n1+1
+n3 = n1-1
+print ('O Sucessor de {} é {}, e o seu antecessor é {}'.format(n1, n2, n3))

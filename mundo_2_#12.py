@@ -2,7 +2,7 @@
     #Condição Aninhada
 
 nome = str(input('Olá, qual é o seu nome? '))
-print ('Seja Bem-Vindo {} !'.format(nome))
+print ('Seja Bem-Vindo {}!'.format(nome))
 nota1 = int(input('{}, Qual foi 1º nota da sua Ac1? '.format(nome)))
 nota2 = int(input('E da Ac2? '))
 nota3 = int(input('E da Ac3? '))
