@@ -95,6 +95,22 @@ c = float(input("Informe a temperatura em ºC: "))
 f = 9 * c / 5 + 32
 print("A temperatura de {} Cº é {} ºF!".format(c, f))
 
+    #Desafio 15
+#Escreva um programa que pergunte a quantidade de Km percorridos por um carro alugado e a quantidade de dias pelos quais ele foi alugado. Calcule o preço a pagar, sabendo que o carro custa R$ 60 por dia e R$ 0,15 por Km rodado.
+
+dias = int(input("Quantos dias?: "))
+km = float(input("Quantos Km percorrido?: "))
+aluguel = (dias * 60) + (0.15 * km)
+valor = 0.15 * km
+print("O valor custa R$ {:.2f}".format(aluguel))
+
+    #Exercicio 16
+#Crie um programa que leia um número Real qualquer pelo teclado e mostre na tela a sua porção Inteira.
+
+n = float(input("Digíte um valor: "))
+print("O valor digítado foi {}, e a seu porção Inteira é {}".format(n, int(n)))
+
+
     # Exercicio 28 
     # Escreva um programa que faça o computador "pensar" em um número inteiro entre 0 e 5 e peça para o usuário tentar descobrir qual foi o número escolhido pelo computador.
     # 		O programa deverá escrever na tela se o usuário venceu ou perdeu.
