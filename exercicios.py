@@ -89,7 +89,11 @@ salario_novo = salario + aumento
 print ('O aumento do(a) funcionário(a) subiu para {}'.format(salario_novo))
 
     #Exercicio 14
-#
+#Escreva um programa que converta uma temperatura digitada em ºC e converta para ºF.
+
+c = float(input("Informe a temperatura em ºC: "))
+f = 9 * c / 5 + 32
+print("A temperatura de {} Cº é {} ºF!".format(c, f))
 
     # Exercicio 28 
     # Escreva um programa que faça o computador "pensar" em um número inteiro entre 0 e 5 e peça para o usuário tentar descobrir qual foi o número escolhido pelo computador.
