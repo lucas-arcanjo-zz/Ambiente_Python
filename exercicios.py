@@ -164,24 +164,18 @@ else:
 
     #Desafio 036
 #Escreva um programa para aprovar o empréstimo bancário para a compra de uma casa. O programa vai perguntar o valor da casa, o salário do comprador e em quantos anos ele vai pagar
-#Calcule o valor da prestação mensalm sabendo que ela não pode exceder 30% do salário ou entçaio o empréstimo será negado.
+#Calcule o valor da prestação mensal sabendo que ela não pode exceder 30% do salário ou então o empréstimo será negado.
 
-casa = float(input('Quanto é o valor da casa? '))
-print ('R$ {} mil reias'.format(casa))
-salario = float(input('Qual é o seu salário? '))
-print ('R$ {},00'.format(salario))
-anos = int (input('Quantos anos pretende pagar a casa? '))
-print ('{} anos'.format(anos))
-parcelas = casa / anos
-valor_mensal = parcelas / 12
-emprestismo = salario * 0.3 
-
-print ('Para pagar a casa de {} mil reais em {} anos, as parcelas firam no valor de {}, o seu salário chega a {},00'.format(casa, anos, valor_mensal, salario))
-if emprestismo > valor_mensal:
-    print('Você possui empréstimo bancário !')
+valor_casa = float(input("Informe o Valor da casa: "))
+salario_comprador = float(input("Informe o salário do comprador: "))
+anos_pra_pagar = int(input("Anos para pagar: "))
+prestacao = (valor_casa / anos_pra_pagar) / 12
+emprestimo = salario_comprador *0.3
+if emprestimo >= prestacao:
+    print('Para comprar uma casa de {:.2f} em {} anos a prestação será de {:.2f}. EMPRÉSTIMO APROVADO'.format(valor_casa, anos_pra_pagar, prestacao))
 else:
-    print('Imprestimo Negado')
-    
+    print('Para comprar uma casa de {:.2f} em {} anos a prestação será de {:.2f}. EMPRESTIMO NEGADO'.format(valor_casa, anos_pra_pagar, prestacao)) 
+
 #Desafio 037
 #Escreva um programa que leia um número inteiro qualquer e peça para o usuário escolher qual será a base de conversão:
 # - 1 para binário
@@ -190,9 +184,18 @@ else:
 
 #Desafio 038
 #Escreva um programa que leia dois números inteiros e compare-os, mostrando na tela uma mensagem:
-# - 0 primeiro valor é maior
-# - 0 segundo valor é maior
+# - O primeiro valor é maior
+# - O segundo valor é maior
 # - Não existe valor maior, os dois são iguais
+
+n1 = int(input('Primeiro número: '))
+n2 = int(input('Segundo número: '))
+if n1 > n2:
+    print('O primeiro valor é maior')
+elif n2 > n1:
+    print('O segundo valor é maior')
+else:
+    print('Não existe valor maior, os dois são iguais')
 
 #Desafio 039
 #Faça um programa que leia o ano de nascimento de um jovem e informe, de acordo com sua idade:
@@ -202,6 +205,16 @@ else:
 # - Se já passou do tempo do alistamento.
 
 #Seu programa também deverá mostrar o tempo que falta ou que passou o prazo.
+
+nascimento = int(input('Ano de nascimento: '))
+ano = 2020 - nascimento
+print('Quem nasceu em {} tem {} anos em 2020'.format(nascimento, ano))
+if ano <= 17:
+    print('Você terá que se alistar daqui a {} anos.'.format(18 - ano))
+elif ano == 18:
+    print('É hora de se alistar!')
+else:
+    print('Você já passou da fase de alistamento.')
 
 #Desafio 040
 #Crie um programa que leia duas notas de um aluno e calcule sua média, mostrando uma mensagem no final, de acordo com a média atingida:
