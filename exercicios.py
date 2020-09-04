@@ -294,6 +294,28 @@ tabuada=int(input("Digíte um número: "))
 for c in range(1,11):
   print("{} x {} = {}".format(tabuada,c,c*tabuada))
 
+#Desafio 050
+#Desenvolva um programa que leia seis números inteiros e mostre a soma apenas daqueles que forem pares. Se o valor digitado for Ímpar, desconsidere-o.
+
+cont= 0
+soma= 0
+for c in range(1,7):
+    n1= int(input('Digíte {}º número: '.format(c)))
+    if n1 % 2 == 0:
+        cont += 1
+        soma += n1
+print('Você digítou {} números pares, totalizando {}'.format(cont, soma))
+
+#Desafio 051
+#Desenvolva um programa que leia o primeiro termo e a razão de um PA. No final, mostre os 10 primeiros termos dessa progressão.
+
+termo = int(input('Digíte o primeiro termo: '))
+razao = int(input('Digíte a razão: '))
+decimo = termo + (11-1) * razao
+for c in range(termo, decimo, razao):
+    print(c, end='..')
+print ('Acabou')
+
 #Desafio 057
 #Faça um programa que leia o sexo de uma pessoa, mas só aceite os valores 'M' ou 'F'. Caso esteja errado, peça a digitação novamente até ter um valor correto.'
 
