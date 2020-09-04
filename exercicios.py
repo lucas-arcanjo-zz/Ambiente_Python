@@ -278,6 +278,15 @@ for c in range (2, 51, 2):
 print ('ACABOU')
 
 #Desafio 048
+#Faça um programa que calcule a soma entre todos os números ímpares que são múltiplos de três e que se encontram no intervalo de 1 até 500.
+
+cont= 0 
+soma= 0
+for p in range(1,501, 2):
+    if p % 3 == 0:
+        soma= soma + p
+        cont= cont + 1
+print('A soma dos {} valores é {}'.format(cont, soma))
 
 #Desafio 049 
 #Refaça o Desafio 09, mostrando a tabuada de um número que o usuário escolher, só que agora utilizando um laço for.
